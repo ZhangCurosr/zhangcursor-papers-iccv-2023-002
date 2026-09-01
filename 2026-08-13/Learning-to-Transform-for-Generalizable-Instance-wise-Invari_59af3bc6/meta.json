@@ -4,5 +4,37 @@
  "title": "Learning-to-Transform-for-Generalizable-Instance-wise-Invari",
  "token": "sk-Ir4JqYCnj...",
  "created_at": "2026-08-13 07:10:21",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/38cc4acc-0a53-447e-8174-3725f1ff6568.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/38cc4acc-0a53-447e-8174-3725f1ff6568.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-01 17:04:30",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "invariance learning",
+    "normalizing flow",
+    "data augmentation",
+    "instance-wise",
+    "out-of-distribution",
+    "congealing",
+    "mean-shift",
+    "long-tail classification"
+   ],
+   "field": "鲁棒视觉表征学习",
+   "innovations": [
+    "基于图模型的 instance-wise 变换分布学习框架，统一 test-time augmentation 与对齐",
+    "使用 RealNVP 归一化流建模多峰/联合条件变换分布，突破均值场限制",
+    "从目标后验推导熵正则化防止分布坍缩，并给出近似不变性的 TV 上界"
+   ],
+   "benchmarks": [
+    "CIFAR-10",
+    "CIFAR-10-LT",
+    "TinyImageNet",
+    "MNIST",
+    "FashionMNIST",
+    "Mario-Iggy",
+    "RotMNIST-LT"
+   ]
+  }
+ }
 }
