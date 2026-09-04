@@ -4,5 +4,31 @@
  "title": "PROMPTCAP-Prompt-Guided-Image-Captioning-for-VQA-with-GPT-3",
  "token": "sk-1FwfANuN8...",
  "created_at": "2026-09-04 17:23:02",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/d67fe5db-40b5-4786-9844-b9d40ff40b07.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/d67fe5db-40b5-4786-9844-b9d40ff40b07.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 19:14:38",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "视觉问答",
+    "图像描述",
+    "大语言模型",
+    "In-context Learning",
+    "Prompt-guided Captioning"
+   ],
+   "field": "多模态视觉语言理解",
+   "innovations": [
+    "提出PROMPTCAP问题感知caption模型，以prompt控制描述重点",
+    "首次利用GPT-3 few-shot能力合成并过滤VQA训练数据，无需人工标注",
+    "在无需微调GPT-3的情况下于OK-VQA/A-OKVQA达到SOTA性能"
+   ],
+   "benchmarks": [
+    "OK-VQA",
+    "A-OKVQA",
+    "WebQA",
+    "VQAv2"
+   ]
+  }
+ }
 }

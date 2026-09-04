@@ -4,5 +4,33 @@
  "title": "Partition-and-Debias-Agnostic-Biases-Mitigation-via-A-Mixtur",
  "token": "sk-yJ5h9Go8b...",
  "created_at": "2026-09-04 17:22:33",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/7889d744-0b7d-43c1-a288-1fde75c23063.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/7889d744-0b7d-43c1-a288-1fde75c23063.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 19:15:09",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "bias mitigation",
+    "agnostic biases",
+    "mixture of experts",
+    "debiased classification",
+    "counterfactual learning",
+    "image classification"
+   ],
+   "field": "计算机视觉 - 公平性与偏差缓解",
+   "innovations": [
+    "提出 agnostic biases 新场景，同时未知偏差类型与数量",
+    "设计 PnD 框架，按网络深度划分偏差子空间并用多 expert 并行去偏",
+    "引入两阶段训练（初始训练+反事实对比训练）与 KL 多样性正则"
+   ],
+   "benchmarks": [
+    "Biased MNIST",
+    "BAR",
+    "Modified IMDB",
+    "MIMIC-CXR + NIH",
+    "CelebA"
+   ]
+  }
+ }
 }

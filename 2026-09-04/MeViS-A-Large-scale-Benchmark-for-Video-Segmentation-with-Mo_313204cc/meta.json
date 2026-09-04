@@ -4,5 +4,33 @@
  "title": "MeViS-A-Large-scale-Benchmark-for-Video-Segmentation-with-Mo",
  "token": "sk-Zs9k8BxOo...",
  "created_at": "2026-09-04 17:23:12",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/b73910f3-c7a2-4a22-8d5b-1719f5a0c504.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/b73910f3-c7a2-4a22-8d5b-1719f5a0c504.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 19:14:24",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "视频分割",
+    "参照视频目标分割",
+    "运动表达",
+    "多模态理解",
+    "基准数据集",
+    "时序上下文"
+   ],
+   "field": "视频理解与分割",
+   "innovations": [
+    "提出以运动表达式为主导的大规模 MeViS 数据集，强调动作描述并支持多目标表达",
+    "设计 LMPM 基线方法，通过物体嵌入与跨帧自注意力聚合全局运动上下文",
+    "系统性证明现有 RVOS 方法在运动依赖场景下存在显著性能缺口"
+   ],
+   "benchmarks": [
+    "MeViS",
+    "Refer-Youtube-VOS",
+    "DAVIS17-RVOS",
+    "A2D Sentence",
+    "Ref-COCO"
+   ]
+  }
+ }
 }

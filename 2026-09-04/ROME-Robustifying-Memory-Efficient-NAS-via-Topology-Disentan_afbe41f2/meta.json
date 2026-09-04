@@ -4,5 +4,34 @@
  "title": "ROME-Robustifying-Memory-Efficient-NAS-via-Topology-Disentan",
  "token": "sk-DBMW62NBu...",
  "created_at": "2026-09-04 17:23:57",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/71aac323-f97e-4252-9281-fa6b6e3ba9a0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/71aac323-f97e-4252-9281-fa6b6e3ba9a0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 19:15:33",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Neural Architecture Search",
+    "Single-path NAS",
+    "Performance Collapse",
+    "Topology Disentanglement",
+    "Gradient Accumulation",
+    "Memory-efficient NAS",
+    "Gumbel-Top2"
+   ],
+   "field": "神经架构搜索",
+   "innovations": [
+    "提出拓扑解耦策略消除单路径NAS中搜索与评估的结构不一致性",
+    "设计Gumbel-Top2重参数化实现可微固定入度采样",
+    "通过双端梯度累积降低架构权重梯度方差并公平训练候选操作"
+   ],
+   "benchmarks": [
+    "CIFAR-10",
+    "CIFAR-100",
+    "SVHN",
+    "ImageNet",
+    "NAS-Bench-1Shot1"
+   ]
+  }
+ }
 }

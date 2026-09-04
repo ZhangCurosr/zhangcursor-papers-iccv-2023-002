@@ -4,5 +4,31 @@
  "title": "Periodically-Exchange-Teacher-Student-for-Source-Free-Object",
  "token": "sk-JdJPQj6CY...",
  "created_at": "2026-09-04 17:24:06",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e37491bb-59ee-46a3-860e-08b08d903898.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e37491bb-59ee-46a3-860e-08b08d903898.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 19:14:56",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Source-Free Object Detection",
+    "Mean-Teacher",
+    "Domain Adaptation",
+    "Self-Training",
+    "Periodic Exchange"
+   ],
+   "field": "源自由域适应目标检测",
+   "innovations": [
+    "提出周期性交换教师-学生权重的多教师框架缓解训练不稳定性",
+    "设计一致性融合机制生成高质量伪标签防止确认偏差",
+    "双向交换策略有效降低错误累积和灾难性遗忘"
+   ],
+   "benchmarks": [
+    "C2F (Cityscapes-to-Foggy-Cityscapes)",
+    "C2B (Cityscapes-to-BDD100k)",
+    "K2C (KITTI-to-Cityscapes-Car)",
+    "S2C (Sim10k-to-Cityscapes-Car)"
+   ]
+  }
+ }
 }

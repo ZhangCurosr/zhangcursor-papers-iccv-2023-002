@@ -4,5 +4,32 @@
  "title": "SVDiff-Compact-Parameter-Space-for-Diffusion-Fine-Tuning",
  "token": "sk-9ieZJEGxv...",
  "created_at": "2026-09-04 17:23:01",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/57ebfeb2-88bb-4b78-809b-a5e6d2d2d997.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/57ebfeb2-88bb-4b78-809b-a5e6d2d2d997.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 19:16:50",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "diffusion model",
+    "parameter-efficient fine-tuning",
+    "singular value decomposition",
+    "personalization",
+    "multi-subject generation",
+    "image editing",
+    "spectral shift"
+   ],
+   "field": "文生图扩散模型高效微调",
+   "innovations": [
+    "首次将GAN谱移位思想引入扩散模型微调，仅优化权重奇异值实现极致参数压缩",
+    "提出Cut-Mix-Unmix数据增强技术有效缓解多主体风格混叠问题",
+    "构建基于单图微调的文本编辑框架，通过谱移位正则化抑制语言漂移"
+   ],
+   "benchmarks": [
+    "DreamBooth个性化生成",
+    "Multi-Subject Generation",
+    "Single-Image Editing"
+   ]
+  }
+ }
 }

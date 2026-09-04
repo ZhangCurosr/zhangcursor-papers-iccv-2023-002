@@ -4,5 +4,31 @@
  "title": "Rethinking-Amodal-Video-Segmentation-from-Learning-Supervise",
  "token": "sk-UDLQGxzLo...",
  "created_at": "2026-09-04 17:24:37",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/a85f1cbd-becf-4cc0-8a44-df97c43ed1f3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/a85f1cbd-becf-4cc0-8a44-df97c43ed1f3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 19:16:39",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "视频消隐分割",
+    "Amodal Segmentation",
+    "物体中心表征",
+    "BEV特征",
+    "多视角融合",
+    "监督学习",
+    "光流替代"
+   ],
+   "field": "视频理解与场景解析",
+   "innovations": [
+    "首次将视频物体分割监督信号系统性地引入视频消隐分割任务，摆脱对光流的依赖",
+    "提出基于BEV平移网络的多视角融合时序编码器，通过object slots实现跨帧/跨视角信息的高效融合"
+   ],
+   "benchmarks": [
+    "Movi-B",
+    "Movi-D",
+    "KITTI"
+   ]
+  }
+ }
 }

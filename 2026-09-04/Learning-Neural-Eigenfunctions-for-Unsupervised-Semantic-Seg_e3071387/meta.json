@@ -4,5 +4,30 @@
  "title": "Learning-Neural-Eigenfunctions-for-Unsupervised-Semantic-Seg",
  "token": "sk-57bzKRZBk...",
  "created_at": "2026-09-04 17:24:22",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/3ca23279-6075-41d8-868b-f19182fd07b7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/3ca23279-6075-41d8-868b-f19182fd07b7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 19:12:55",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "无监督语义分割",
+    "谱聚类",
+    "神经特征函数",
+    "ViT",
+    "端到端聚类"
+   ],
+   "field": "无监督视觉分割",
+   "innovations": [
+    "将谱聚类参数化为神经网络特征函数，避免显式特征分解",
+    "双图核融合语义特征与底层像素信息",
+    "Gumbel-Softmax量化神经特征函数输出为离散聚类分配"
+   ],
+   "benchmarks": [
+    "Pascal Context",
+    "Cityscapes",
+    "ADE20K"
+   ]
+  }
+ }
 }

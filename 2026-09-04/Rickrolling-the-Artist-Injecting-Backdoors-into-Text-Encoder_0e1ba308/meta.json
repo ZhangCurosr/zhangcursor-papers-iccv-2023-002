@@ -4,5 +4,29 @@
  "title": "Rickrolling-the-Artist-Injecting-Backdoors-into-Text-Encoder",
  "token": "sk-F7cBp1IrI...",
  "created_at": "2026-09-04 17:22:26",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/4fccaad1-b09f-436e-81ee-34b461b4b348.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/4fccaad1-b09f-436e-81ee-34b461b4b348.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 19:16:14",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "后门攻击",
+    "文本到图像生成",
+    "CLIP",
+    "同形字符",
+    "模型安全"
+   ],
+   "field": "生成模型安全",
+   "innovations": [
+    "首次针对文本编码器的后门攻击，仅需微调",
+    "提出TPA和TAA两种攻击模式",
+    "利用同形字符实现隐蔽触发"
+   ],
+   "benchmarks": [
+    "MS-COCO 2014",
+    "ImageNet-V2 zero-shot"
+   ]
+  }
+ }
 }

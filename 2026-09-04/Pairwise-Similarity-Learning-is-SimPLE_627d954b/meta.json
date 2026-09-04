@@ -4,5 +4,32 @@
  "title": "Pairwise-Similarity-Learning-is-SimPLE",
  "token": "sk-kBmY9IM4V...",
  "created_at": "2026-09-04 17:23:44",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/83af0d79-d0c8-4135-a3c4-3e8e4a4b55e1.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/83af0d79-d0c8-4135-a3c4-3e8e4a4b55e1.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 19:14:40",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "成对相似度学习",
+    "开放集识别",
+    "无代理学习",
+    "人脸识别",
+    "度量学习"
+   ],
+   "field": "开放集人脸识别与度量学习",
+   "innovations": [
+    "提出SimPLE无代理pair-based PSL框架，无需角度相似度和边距",
+    "广义内积相似度函数含learned angular bias",
+    "正负对反向hard mining策略避免效应抵消"
+   ],
+   "benchmarks": [
+    "IJB-B",
+    "IJB-C",
+    "LFW",
+    "VoxCeleb1",
+    "CUB-200-2011"
+   ]
+  }
+ }
 }

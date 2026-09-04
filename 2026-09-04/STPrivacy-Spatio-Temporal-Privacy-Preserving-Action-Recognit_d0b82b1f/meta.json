@@ -4,5 +4,33 @@
  "title": "STPrivacy-Spatio-Temporal-Privacy-Preserving-Action-Recognit",
  "token": "sk-HhSqimc2F...",
  "created_at": "2026-09-04 17:24:26",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/6baea3bf-6e04-4edb-9df3-2aea765ca7e4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/6baea3bf-6e04-4edb-9df3-2aea765ca7e4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 19:17:11",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "privacy-preserving action recognition",
+    "video transformer",
+    "spatio-temporal privacy",
+    "adversarial learning",
+    "token sparsification",
+    "vision transformer"
+   ],
+   "field": "视频隐私保护与动作识别",
+   "innovations": [
+    "首个将 Vision Transformer 引入 PPAR 的视频级隐私保护框架",
+    "提出自适应管体稀疏化机制，渐进丢弃与动作无关的隐私管体",
+    "通过对抗训练实现视频级和帧级双重隐私保护，并支持部署时无需重训的动态权衡"
+   ],
+   "benchmarks": [
+    "VP-HMDB51",
+    "VP-UCF101",
+    "PA-HMDB",
+    "CelebVHQ",
+    "P-HVU"
+   ]
+  }
+ }
 }

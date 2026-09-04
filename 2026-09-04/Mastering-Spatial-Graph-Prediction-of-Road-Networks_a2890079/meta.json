@@ -4,5 +4,31 @@
  "title": "Mastering-Spatial-Graph-Prediction-of-Road-Networks",
  "token": "sk-JMLCbBCEj...",
  "created_at": "2026-09-04 17:24:34",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/2c17217a-7ee0-4ed7-b8de-9ecd38843c36.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/2c17217a-7ee0-4ed7-b8de-9ecd38843c36.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 19:14:15",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "道路网络提取",
+    "空间图预测",
+    "强化学习",
+    "蒙特卡洛树搜索",
+    "自回归模型",
+    "卫星图像",
+    "MuZero"
+   ],
+   "field": "遥感与计算机视觉交叉：结构化预测",
+   "innovations": [
+    "RL微调自回归图生成模型，通过MCTS替代固定顺序贪婪解码以直接优化非连续拓扑指标",
+    "使用轻量LSTM动力学网络近似状态转移，使MCTS搜索效率提升约90倍",
+    "构建合成遮挡数据集验证鲁棒性，并证明道路几何特征跨地域可迁移"
+   ],
+   "benchmarks": [
+    "SpaceNet",
+    "DeepGlobe"
+   ]
+  }
+ }
 }

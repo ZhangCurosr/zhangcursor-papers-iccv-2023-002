@@ -4,5 +4,29 @@
  "title": "Learning-Shape-Primitives-via-Implicit-Convexity-Regularizat",
  "token": "sk-qcw8nHe5i...",
  "created_at": "2026-09-04 17:24:22",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/72c619e6-5155-4052-b84d-60840c512759.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/72c619e6-5155-4052-b84d-60840c512759.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 19:13:07",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "shape primitive decomposition",
+    "implicit convexity regularization",
+    "multi-view reconstruction",
+    "SDF",
+    "neural rendering"
+   ],
+   "field": "3D形状分析与基元分解",
+   "innovations": [
+    "提出ICR二阶方向导数凸正则化项，避免SDF直接约束的训练不稳定",
+    "首次从多视角图像无标注学习隐式凸基元分解",
+    "用softmax加权求和实现多基元SDF可微合并"
+   ],
+   "benchmarks": [
+    "ShapeNet",
+    "CO3D"
+   ]
+  }
+ }
 }
