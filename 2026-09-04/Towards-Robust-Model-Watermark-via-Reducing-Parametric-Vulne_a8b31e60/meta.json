@@ -4,5 +4,31 @@
  "title": "Towards-Robust-Model-Watermark-via-Reducing-Parametric-Vulne",
  "token": "sk-JiEKTe0tT...",
  "created_at": "2026-09-04 17:23:11",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/1424ae90-23c5-456b-a8a5-2a32f7122ffc.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/1424ae90-23c5-456b-a8a5-2a32f7122ffc.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 21:20:26",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "模型水印",
+    "对抗鲁棒性",
+    "参数空间分析",
+    "域偏移",
+    "黑盒验证",
+    "后门水印",
+    "BatchNorm"
+   ],
+   "field": "深度学习安全与隐私保护",
+   "innovations": [
+    "提出对抗参数扰动(minimax)消除参数空间中的水印脆弱邻居",
+    "设计c-BN用干净样本统计量归一化水印输入以消除域偏移"
+   ],
+   "benchmarks": [
+    "CIFAR-10",
+    "CIFAR-100",
+    "ImageNet-subset"
+   ]
+  }
+ }
 }

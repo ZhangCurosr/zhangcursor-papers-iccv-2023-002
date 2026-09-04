@@ -4,5 +4,31 @@
  "title": "Towards-Understanding-the-Generalization-of-Deepfake-Detecto",
  "token": "sk-Wt6bONApk...",
  "created_at": "2026-09-04 17:22:29",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/d3607e22-ae65-45f7-a594-490007d6d0e9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/d3607e22-ae65-45f7-a594-490007d6d0e9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 21:20:49",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Deepfake检测",
+    "泛化能力",
+    "Shapley值",
+    "多阶交互",
+    "博弈论",
+    "可解释AI",
+    "表征诊断"
+   ],
+   "field": "深度伪造检测与泛化分析",
+   "innovations": [
+    "从博弈论视角揭示低阶交互对Deepfake检测器泛化的毒性效应",
+    "提出无需重训练的推理阶段低阶交互修正策略"
+   ],
+   "benchmarks": [
+    "FaceForensics++",
+    "Celeb-DF v1",
+    "Celeb-DF v2"
+   ]
+  }
+ }
 }

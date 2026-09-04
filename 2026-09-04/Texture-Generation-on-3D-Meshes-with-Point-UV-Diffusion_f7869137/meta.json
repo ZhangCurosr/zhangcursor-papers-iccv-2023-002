@@ -4,5 +4,33 @@
  "title": "Texture-Generation-on-3D-Meshes-with-Point-UV-Diffusion",
  "token": "sk-Jd4ujJMnj...",
  "created_at": "2026-09-04 17:23:31",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/2128c15f-2982-4229-9868-5ad8fc05e6af.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/2128c15f-2982-4229-9868-5ad8fc05e6af.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 21:19:52",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "3D纹理生成",
+    "扩散模型",
+    "UV映射",
+    "点扩散",
+    "由粗到精",
+    "风格引导",
+    "混合条件"
+   ],
+   "field": "3D视觉与图形生成",
+   "innovations": [
+    "首次提出专门针对网格纹理生成的两阶段扩散模型（点扩散+UV扩散）",
+    "引入风格引导机制通过无监督聚类提升生成颜色多样性",
+    "设计混合条件与条件截断采样策略解决级联扩散的训练-测试分布差距"
+   ],
+   "benchmarks": [
+    "ShapeNet chair/table/car/bench",
+    "FID",
+    "KID",
+    "LPIPS"
+   ]
+  }
+ }
 }

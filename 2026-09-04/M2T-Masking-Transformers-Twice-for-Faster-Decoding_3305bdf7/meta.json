@@ -4,5 +4,26 @@
  "title": "M2T-Masking-Transformers-Twice-for-Faster-Decoding",
  "token": "sk-0vgcClVqT...",
  "created_at": "2026-09-04 17:23:40",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/df5b6bbd-8344-4b01-a444-fb1ecdf4be89.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/df5b6bbd-8344-4b01-a444-fb1ecdf4be89.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 21:17:17",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "neural image compression",
+    "masked transformer",
+    "M2T",
+    "rate-distortion optimization",
+    "entropy modeling",
+    "group autoregressive"
+   ],
+   "field": "神经图像压缩",
+   "innovations": [
+    "固定确定性调度替代实例自适应调度在压缩任务中同样有效",
+    "双掩码（输入+注意力）实现 group-causal 结构与 activation caching 加速 2.7-4.8×",
+    "QLDS 低差异序列调度最大化组间互信息"
+   ]
+  }
+ }
 }

@@ -4,5 +4,34 @@
  "title": "UniFormerV2-Unlocking-the-Potential-of-Image-ViTs-for-Video",
  "token": "sk-OzxqMKxem...",
  "created_at": "2026-09-04 17:23:53",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/b5b19659-ae9b-4f62-a93d-a395e8ac8cac.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/b5b19659-ae9b-4f62-a93d-a395e8ac8cac.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 21:21:19",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Video Understanding",
+    "Vision Transformer",
+    "Action Recognition",
+    "Spatiotemporal Modeling",
+    "Pretrained ViT"
+   ],
+   "field": "视频理解与动作识别",
+   "innovations": [
+    "Local UniBlock时空解耦设计实现高效时序建模",
+    "基于查询的交叉MHRA降低全局聚合计算复杂度",
+    "UniFormerV2解锁预训练图像ViT的视频潜力并达到多基准SOTA"
+   ],
+   "benchmarks": [
+    "Kinetics-400",
+    "Kinetics-600",
+    "Kinetics-700",
+    "Something-Something V2",
+    "Moments in Time",
+    "ActivityNet",
+    "HACS"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "LoGoPrompt-Synthetic-Text-Images-Can-Be-Good-Visual-Prompts",
  "token": "sk-41l0wHhLH...",
  "created_at": "2026-09-04 17:23:52",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/58fc93a7-6fcb-4601-9be3-aa74cfd0e0c8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/58fc93a7-6fcb-4601-9be3-aa74cfd0e0c8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 21:17:30",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "visual prompt tuning",
+    "vision-language model",
+    "few-shot learning",
+    "base-to-new generalization",
+    "contrastive learning",
+    "prompt engineering",
+    "CLIP adaptation"
+   ],
+   "field": "视觉-语言模型提示调优",
+   "innovations": [
+    "首次使用含类名文本的合成图像作为无参class-wise视觉提示",
+    "将分类目标重构为视觉提示选择任务以解决鸡与蛋困境",
+    "提出min-max对比学习损失同时保护原始图像分类能力并增强类条件特征"
+   ],
+   "benchmarks": [
+    "ImageNet few-shot (1/2/4/8/16-shot)",
+    "Base-to-new Generalization (11 datasets)",
+    "Domain Generalization (ImageNet-V2/Sketch/A/R)"
+   ]
+  }
+ }
 }

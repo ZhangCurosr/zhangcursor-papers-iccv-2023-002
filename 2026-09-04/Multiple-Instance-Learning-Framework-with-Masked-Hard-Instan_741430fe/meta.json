@@ -4,5 +4,29 @@
  "title": "Multiple-Instance-Learning-Framework-with-Masked-Hard-Instan",
  "token": "sk-hwXfRrBR3...",
  "created_at": "2026-09-04 17:22:33",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/520e9801-d0e8-456d-a086-2ab2e57d9bdf.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/520e9801-d0e8-456d-a086-2ab2e57d9bdf.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 21:17:48",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Multiple Instance Learning",
+    "Whole Slide Image Classification",
+    "Hard Instance Mining",
+    "Siamese Network",
+    "Consistency Regularization"
+   ],
+   "field": "医学图像分析",
+   "innovations": [
+    "提出掩码困难实例挖掘（MHIM）策略，隐式挖掘难以分类的实例以提升MIL模型泛化能力",
+    "设计动量教师-学生Siamese结构，通过EMA更新实现稳定高效的困难实例挖掘",
+    "引入一致性约束损失，迭代优化教师与学生模型，进一步挖掘弱监督信号"
+   ],
+   "benchmarks": [
+    "CAMELYON-16",
+    "TCGA Lung Cancer"
+   ]
+  }
+ }
 }

@@ -4,5 +4,34 @@
  "title": "Shift-from-Texture-bias-to-Shape-bias-Edge-Deformation-based",
  "token": "sk-xE6uZ2trL...",
  "created_at": "2026-09-04 17:23:49",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/fb2829a3-42d7-49ae-8e73-8d762ad2896d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/fb2829a3-42d7-49ae-8e73-8d762ad2896d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 21:18:56",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "texture-bias",
+    "shape-bias",
+    "adversarial robustness",
+    "data augmentation",
+    "edge deformation",
+    "thin plate spline",
+    "generative augmentation"
+   ],
+   "field": "对抗鲁棒性与形状感知学习",
+   "innovations": [
+    "提出基于边缘图 TPS 变形的在线增强方法 SDbOA，首次系统探索边缘形变对 shape-bias 的提升作用",
+    "设计自信息引导的边缘编码（EMSE）扩展边缘周围区域，增强形状编码对噪声的鲁棒性",
+    "构建纹理-形状联合约束的两阶段生成器（TSG），以软约束方式保持生成样本的语义合理性与形状多样性"
+   ],
+   "benchmarks": [
+    "CIFAR-10",
+    "ImageNet",
+    "Fashion MNIST",
+    "CelebA",
+    "CIFAR-10-C"
+   ]
+  }
+ }
 }

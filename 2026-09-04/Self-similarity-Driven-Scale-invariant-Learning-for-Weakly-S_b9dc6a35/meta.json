@@ -4,5 +4,30 @@
  "title": "Self-similarity-Driven-Scale-invariant-Learning-for-Weakly-S",
  "token": "sk-EQhZ10Ty5...",
  "created_at": "2026-09-04 17:24:15",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/1e8948e8-0bf8-4edc-b0b5-6b7d91464043.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/1e8948e8-0bf8-4edc-b0b5-6b7d91464043.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 21:18:37",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "弱监督行人搜索",
+    "尺度不变学习",
+    "多尺度原型",
+    "动态多标签学习",
+    "自相似性",
+    "硬原型挖掘"
+   ],
+   "field": "行人重识别与搜索",
+   "innovations": [
+    "提出尺度不变损失，通过硬原型挖掘学习跨尺度一致特征",
+    "设计动态多标签学习，使用指数衰减阈值自适应生成高质量伪标签",
+    "端到端单阶段框架，多尺度原型分支仅用于训练，推理无额外开销"
+   ],
+   "benchmarks": [
+    "PRW",
+    "CUHK‑SYSU"
+   ]
+  }
+ }
 }

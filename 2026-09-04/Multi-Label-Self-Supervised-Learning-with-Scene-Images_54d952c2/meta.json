@@ -4,5 +4,10 @@
  "title": "Multi-Label-Self-Supervised-Learning-with-Scene-Images",
  "token": "sk-FMTQpgZxg...",
  "created_at": "2026-09-04 17:23:05",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/12bc5a32-f0b3-4618-89f1-aa6bafeb9e4a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/12bc5a32-f0b3-4618-89f1-aa6bafeb9e4a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 21:17:56",
+  "chunks": 1
+ }
 }

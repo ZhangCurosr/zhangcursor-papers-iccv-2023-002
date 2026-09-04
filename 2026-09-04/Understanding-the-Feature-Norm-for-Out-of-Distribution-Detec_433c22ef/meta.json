@@ -4,5 +4,39 @@
  "title": "Understanding-the-Feature-Norm-for-Out-of-Distribution-Detec",
  "token": "sk-aqqIvKJig...",
  "created_at": "2026-09-04 17:24:31",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/677641de-f722-433b-b1fb-789fe668d959.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/677641de-f722-433b-b1fb-789fe668d959.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 21:21:19",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Out-of-Distribution Detection",
+    "Feature Norm",
+    "Negative-Aware Norm",
+    "Hidden Classifier",
+    "Activation Sparsity",
+    "Label-free Detection",
+    "OOD Benchmark"
+   ],
+   "field": "分布外检测/鲁棒机器学习",
+   "innovations": [
+    "揭示特征范数本质为隐藏分类器的最大logit置信度",
+    "提出负感知范数NAN同时捕获神经元激活与去激活倾向",
+    "证明特征范数类别无关性，适用于任意判别模型与自监督场景"
+   ],
+   "benchmarks": [
+    "ImageNet-1k",
+    "CIFAR-10",
+    "CIFAR-100",
+    "iNaturalist",
+    "SUN",
+    "Places",
+    "Texture",
+    "SVHN",
+    "LSUN-fix",
+    "One-Class Classification"
+   ]
+  }
+ }
 }

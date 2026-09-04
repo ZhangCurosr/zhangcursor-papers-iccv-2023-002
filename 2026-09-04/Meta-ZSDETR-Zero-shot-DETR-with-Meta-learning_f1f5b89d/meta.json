@@ -4,5 +4,30 @@
  "title": "Meta-ZSDETR-Zero-shot-DETR-with-Meta-learning",
  "token": "sk-wC6oFabBZ...",
  "created_at": "2026-09-04 17:24:26",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/1c45761b-6aad-4f60-9493-ff8ff76ba3f3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/1c45761b-6aad-4f60-9493-ff8ff76ba3f3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 21:17:23",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "零样本目标检测",
+    "DETR",
+    "元学习",
+    "对比学习",
+    "类别特定查询"
+   ],
+   "field": "零样本/开放世界目标检测",
+   "innovations": [
+    "首次将DETR与episode-based元学习结合用于零样本目标检测，统一训练与测试范式",
+    "提出class-specific query机制，将语义向量注入查询直接预测类别特定边界框",
+    "设计meta-contrastive learning三头架构（回归、分类、对比），实现类别逐一匹配优化"
+   ],
+   "benchmarks": [
+    "PASCAL VOC 16/4 splits",
+    "MS COCO 48/17 splits",
+    "MS COCO 65/15 splits"
+   ]
+  }
+ }
 }

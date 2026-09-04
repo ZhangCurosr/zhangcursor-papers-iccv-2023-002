@@ -4,5 +4,10 @@
  "title": "StyleDiffusion-Controllable-Disentangled-Style-Transfer-via",
  "token": "sk-WBtYQMcVU...",
  "created_at": "2026-09-04 17:24:18",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/0bafebbe-0c68-40df-940c-23a200980953.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/0bafebbe-0c68-40df-940c-23a200980953.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 21:19:31",
+  "chunks": 1
+ }
 }

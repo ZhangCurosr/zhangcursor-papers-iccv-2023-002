@@ -4,5 +4,31 @@
  "title": "Not-All-Steps-are-Created-Equal-Selective-Diffusion-Distilla",
  "token": "sk-vlHk6dmng...",
  "created_at": "2026-09-04 17:24:03",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/bf97611f-8153-4012-a054-9a9c0220ac1d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/bf97611f-8153-4012-a054-9a9c0220ac1d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 21:17:50",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "图像编辑",
+    "扩散模型",
+    "知识蒸馏",
+    "时间步选择",
+    "StyleGAN",
+    "可编辑性-保真度权衡"
+   ],
+   "field": "图像生成与编辑",
+   "innovations": [
+    "提出扩散蒸馏范式破解编辑-保真权衡",
+    "设计HQS指标自动选择语义相关时间步",
+    "单次前向传播实现高效图像操纵"
+   ],
+   "benchmarks": [
+    "CelebA-HQ",
+    "AFHQ-cat",
+    "LSUN-car"
+   ]
+  }
+ }
 }

@@ -4,5 +4,36 @@
  "title": "T-oo-Large-Data-Reduction-for-Vision-Language-Pre-Training",
  "token": "sk-hN9qFiLuN...",
  "created_at": "2026-09-04 17:23:22",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/2f7fe09f-c8a3-4bdd-a7a6-c829740729c6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/2f7fe09f-c8a3-4bdd-a7a6-c829740729c6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 21:19:13",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Vision-Language Pre-Training",
+    "Data Compression",
+    "Dataset Pruning",
+    "Multi-modal Learning",
+    "Codebook",
+    "Image-Text Alignment"
+   ],
+   "field": "多模态预训练与数据效率",
+   "innovations": [
+    "首个面向大规模多模态数据的通用压缩算法，压缩率75%-90%",
+    "码本语义聚类+原文本/生成文本拼接策略缓解图文不对齐与模型崩溃",
+    "跨架构泛化验证：在CLIP/ViLT/BLIP及4大数据集上实现同等或更优下游性能"
+   ],
+   "benchmarks": [
+    "MSCOCO Retrieval",
+    "Flickr30K",
+    "VQA",
+    "NLVR²",
+    "RefCOCO+",
+    "COCO Captioning",
+    "MSRVTT Video Retrieval",
+    "ImageNet Zero-shot Classification"
+   ]
+  }
+ }
 }

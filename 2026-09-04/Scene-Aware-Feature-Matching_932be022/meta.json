@@ -4,5 +4,30 @@
  "title": "Scene-Aware-Feature-Matching",
  "token": "sk-wGl2gwQjA...",
  "created_at": "2026-09-04 17:23:11",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/2fb0d46f-97d3-4cb6-a3c8-2d0bc34d0f8b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/2fb0d46f-97d3-4cb6-a3c8-2d0bc34d0f8b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 21:18:10",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "特征匹配",
+    "场景感知",
+    "Transformer",
+    "分组学习",
+    "最优传输",
+    "SuperGlue"
+   ],
+   "field": "视觉特征匹配",
+   "innovations": [
+    "首次引入group token构建场景感知多粒度特征匹配框架",
+    "仅依赖匹配监督即可训练出有意义的场景分组结构"
+   ],
+   "benchmarks": [
+    "R1M Homography Estimation",
+    "YFCC100M Pose Estimation",
+    "HPatches Image Matching"
+   ]
+  }
+ }
 }

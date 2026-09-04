@@ -4,5 +4,10 @@
  "title": "Towards-Attack-tolerant-Federated-Learning-via-Critical-Para",
  "token": "sk-WJrSFDicB...",
  "created_at": "2026-09-04 17:22:23",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/496b4e38-8833-47db-b6dc-f541254f3fd6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/496b4e38-8833-47db-b6dc-f541254f3fd6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 21:20:33",
+  "chunks": 1
+ }
 }
