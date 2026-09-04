@@ -4,5 +4,30 @@
  "title": "Single-Stage-Diffusion-NeRF-A-Unified-Approach-to-3D-Generat",
  "token": "sk-SpLNbaqjv...",
  "created_at": "2026-09-04 17:24:30",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/bc79be81-b29c-48b1-a2b0-d79d9b0e38d5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/bc79be81-b29c-48b1-a2b0-d79d9b0e38d5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 23:35:55",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "3D生成",
+    "NeRF",
+    "扩散模型",
+    "单阶段训练",
+    "稀疏视图重建",
+    "无条件生成"
+   ],
+   "field": "3D视觉与生成",
+   "innovations": [
+    "提出单阶段端到端联合训练范式，同步优化NeRF auto-decoder与潜在扩散模型",
+    "在仅3视图的稀疏数据上实现有效训练，突破两阶段方法局限"
+   ],
+   "benchmarks": [
+    "SRN Cars",
+    "SRN Chairs",
+    "ABO Tables"
+   ]
+  }
+ }
 }

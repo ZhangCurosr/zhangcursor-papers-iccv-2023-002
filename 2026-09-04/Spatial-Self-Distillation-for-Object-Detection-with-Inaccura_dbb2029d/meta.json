@@ -4,5 +4,30 @@
  "title": "Spatial-Self-Distillation-for-Object-Detection-with-Inaccura",
  "token": "sk-n7iJ0Z1Ol...",
  "created_at": "2026-09-04 17:23:03",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/f10005e1-b5e8-4aca-b9a9-4ffff218144a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/f10005e1-b5e8-4aca-b9a9-4ffff218144a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 23:36:13",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "inaccurate bounding box",
+    "object detection",
+    "spatial self-distillation",
+    "multiple instance learning",
+    "noisy annotation",
+    "proposal refinement"
+   ],
+   "field": "鲁棒目标检测",
+   "innovations": [
+    "提出SPSD与SISD模块，在自蒸馏框架下系统挖掘空间信息以缓解漂移、组预测与局部主导问题",
+    "设计交互式结构交替融合空间与类别信息，构建高质量候选框袋并进行对象相关IoU预测",
+    "在MS-COCO与VOC上实现SOTA性能，并在高级检测器（Sparse R-CNN, Deformable DETR）上验证通用性"
+   ],
+   "benchmarks": [
+    "MS-COCO",
+    "PASCAL VOC 2007"
+   ]
+  }
+ }
 }

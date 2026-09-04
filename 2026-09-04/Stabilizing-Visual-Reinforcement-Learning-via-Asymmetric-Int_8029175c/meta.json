@@ -4,5 +4,30 @@
  "title": "Stabilizing-Visual-Reinforcement-Learning-via-Asymmetric-Int",
  "token": "sk-gpAzKtmRM...",
  "created_at": "2026-09-04 17:23:53",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/ea538754-c7ba-432a-be91-9b417b1587c5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/ea538754-c7ba-432a-be91-9b417b1587c5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 23:36:16",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "视觉强化学习",
+    "表示学习",
+    "训练稳定性",
+    "振荡自过拟合",
+    "非对称交互",
+    "拓扑蒸馏"
+   ],
+   "field": "视觉强化学习表示学习",
+   "innovations": [
+    "提出非对称交互式合作(AIC)框架解决重型视觉编码器的振荡自过拟合问题",
+    "发明拓扑蒸馏技术将长期回报信息从轻量编码器传递至主编码器",
+    "设计贪婪引导交替优化策略增强表示与策略训练的稳定性"
+   ],
+   "benchmarks": [
+    "CARLA高速公路驾驶",
+    "Vizdoom Medikit"
+   ]
+  }
+ }
 }

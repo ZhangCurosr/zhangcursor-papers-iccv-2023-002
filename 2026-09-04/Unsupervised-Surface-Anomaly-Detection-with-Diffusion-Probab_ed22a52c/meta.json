@@ -4,5 +4,29 @@
  "title": "Unsupervised-Surface-Anomaly-Detection-with-Diffusion-Probab",
  "token": "sk-2FYNY4z3P...",
  "created_at": "2026-09-04 17:24:38",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e8141310-9832-4ce7-bdca-62176c846fca.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e8141310-9832-4ce7-bdca-62176c846fca.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 23:37:11",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "unsupervised anomaly detection",
+    "diffusion probabilistic model",
+    "latent diffusion model",
+    "noise condition embedding",
+    "interpolated channels",
+    "MVTec-AD"
+   ],
+   "field": "unobase surface anomaly detection",
+   "innovations": [
+    "首次将潜在扩散模型引入基于重建的无监督异常检测，提升结构异常重建质量。",
+    "提出噪声条件嵌入，通过加噪条件防止模型直接复制异常区域。",
+    "设计插值通道，使判别网络感知重建多样性并抑制非异常区域干扰。"
+   ],
+   "benchmarks": [
+    "MVTec-AD"
+   ]
+  }
+ }
 }

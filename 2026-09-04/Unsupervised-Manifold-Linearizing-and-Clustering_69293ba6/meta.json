@@ -4,5 +4,10 @@
  "title": "Unsupervised-Manifold-Linearizing-and-Clustering",
  "token": "sk-RsHYrwqhL...",
  "created_at": "2026-09-04 17:23:18",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/c1fe9eb1-7d7a-448e-9ef2-b2c054851207.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/c1fe9eb1-7d7a-448e-9ef2-b2c054851207.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 23:37:08",
+  "chunks": 1
+ }
 }

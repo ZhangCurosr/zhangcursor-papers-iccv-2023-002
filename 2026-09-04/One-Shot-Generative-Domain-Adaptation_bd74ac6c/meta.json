@@ -4,5 +4,30 @@
  "title": "One-Shot-Generative-Domain-Adaptation",
  "token": "sk-DZdSC3jNI...",
  "created_at": "2026-09-04 17:24:29",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/569e76d2-45a8-4c79-a89a-fc9e7eed797f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/569e76d2-45a8-4c79-a89a-fc9e7eed797f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 23:35:44",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "one-shot domain adaptation",
+    "generative domain adaptation",
+    "GAN",
+    "few-shot generation",
+    "StyleGAN",
+    "attribute adaptor"
+   ],
+   "field": "少样本生成式域适应",
+   "innovations": [
+    "冻结源域预训练 GAN 主干，仅在生成器中插入轻量仿射属性适配器实现极简参数适配",
+    "冻结判别器骨干并挂载轻量属性分类器，以对抗方式引导生成器捕捉参考图代表性属性",
+    "首次在 GAN 训练过程中引入潜空间截断策略以缓解单样本目标域与源域之间的多样性鸿沟"
+   ],
+   "benchmarks": [
+    "FFHQ face",
+    "Churches outdoor scene"
+   ]
+  }
+ }
 }

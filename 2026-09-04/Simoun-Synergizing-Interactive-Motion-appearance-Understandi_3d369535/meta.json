@@ -4,5 +4,29 @@
  "title": "Simoun-Synergizing-Interactive-Motion-appearance-Understandi",
  "token": "sk-AURmMVi2z...",
  "created_at": "2026-09-04 17:24:38",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/487a2a8b-97ec-4e42-8773-9905b71c97eb.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/487a2a8b-97ec-4e42-8773-9905b71c97eb.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 23:35:37",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "视觉强化学习",
+    "双路径网络",
+    "运动-外观分离",
+    "好奇心探索",
+    "内在奖励"
+   ],
+   "field": "视觉强化学习",
+   "innovations": [
+    "双路径显式分离运动与外观特征的交互学习架构",
+    "基于跨帧注意力的结构交互模块提取运动-外观关联结构",
+    "利用双路径动态一致性计算内在奖励的好奇心模块"
+   ],
+   "benchmarks": [
+    "DMControl",
+    "CARLA"
+   ]
+  }
+ }
 }

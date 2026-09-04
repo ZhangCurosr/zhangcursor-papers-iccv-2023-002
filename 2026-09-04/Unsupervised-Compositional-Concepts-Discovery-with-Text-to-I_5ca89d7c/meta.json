@@ -4,5 +4,10 @@
  "title": "Unsupervised-Compositional-Concepts-Discovery-with-Text-to-I",
  "token": "sk-haVkJ3VAf...",
  "created_at": "2026-09-04 17:22:33",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/8ea0990b-3541-4d3e-bcbc-a1d72e60f3fe.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/8ea0990b-3541-4d3e-bcbc-a1d72e60f3fe.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 23:37:02",
+  "chunks": 1
+ }
 }

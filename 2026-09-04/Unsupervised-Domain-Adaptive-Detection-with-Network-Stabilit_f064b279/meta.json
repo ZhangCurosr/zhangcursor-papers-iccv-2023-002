@@ -4,5 +4,33 @@
  "title": "Unsupervised-Domain-Adaptive-Detection-with-Network-Stabilit",
  "token": "sk-zw57yHIgm...",
  "created_at": "2026-09-04 17:23:12",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/fc64de4e-3728-4ce1-a176-669842c92926.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/fc64de4e-3728-4ce1-a176-669842c92926.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 23:36:45",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "无监督域适应",
+    "目标检测",
+    "一致性学习",
+    "教师-学生模型",
+    "网络稳定性",
+    "外部一致性分析",
+    "内部一致性分析"
+   ],
+   "field": "无监督域适应目标检测",
+   "innovations": [
+    "提出NSA框架，从控制理论稳定性视角统一分析多种扰动下的检测网络一致性",
+    "设计ECA+ICA双维度一致性约束，针对不同扰动类型差异化应用",
+    "实例级图对比学习（InsD），在单图内构建实例关系学习稳定特征分布"
+   ],
+   "benchmarks": [
+    "Cityscapes-to-FoggyCityscapes",
+    "Cityscapes-to-RainCityscapes",
+    "KITTI-to-Cityscapes",
+    "SIM10k-to-FoggyCityscapes"
+   ]
+  }
+ }
 }

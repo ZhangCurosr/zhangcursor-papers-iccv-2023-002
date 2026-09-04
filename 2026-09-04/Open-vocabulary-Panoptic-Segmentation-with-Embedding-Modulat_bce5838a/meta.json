@@ -4,5 +4,32 @@
  "title": "Open-vocabulary-Panoptic-Segmentation-with-Embedding-Modulat",
  "token": "sk-t5rU5DeOT...",
  "created_at": "2026-09-04 17:24:01",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/1b7f1f68-0642-49c5-b0b0-e3a439d16aaf.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/1b7f1f68-0642-49c5-b0b0-e3a439d16aaf.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-04 23:35:41",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "open-vocabulary segmentation",
+    "panoptic segmentation",
+    "CLIP",
+    "embedding modulation",
+    "cross-dataset generalization"
+   ],
+   "field": "开放词汇视觉分割",
+   "innovations": [
+    "提出OPSNet框架，首次系统性解决开放词汇全景分割任务",
+    "设计Embedding Modulation模块，通过域相似度自适应融合查询嵌入与CLIP嵌入",
+    "提出Decoupled Supervision训练范式，利用图像级标签扩展训练概念"
+   ],
+   "benchmarks": [
+    "COCO panoptic segmentation",
+    "ADE20K",
+    "Cityscapes",
+    "PascalContext",
+    "ImageNet-21K"
+   ]
+  }
+ }
 }
