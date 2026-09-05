@@ -4,5 +4,31 @@
  "title": "Studying-How-to-Efficiently-and-Effectively-Guide-Models-wit",
  "token": "sk-twhrLv2pG...",
  "created_at": "2026-09-04 17:23:00",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/11c894d7-9cdb-4f00-a459-42da3ee95ed4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/11c894d7-9cdb-4f00-a459-42da3ee95ed4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-09-05 01:57:00",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "model guidance",
+    "attribution methods",
+    "interpretable deep learning",
+    " Energy loss",
+    " bounding box supervision",
+    "spurious correlation"
+   ],
+   "field": "可解释人工智能",
+   "innovations": [
+    "提出将 EPG 指标转化为可微 Energy loss，避免均匀归因先验",
+    "系统性评估边界框级廉价标注在大规模多标签数据集上的模型引导效果",
+    "证明低标注成本（1%）和粗标注噪声下引导仍有效且能改善分布偏移泛化"
+   ],
+   "benchmarks": [
+    "PASCAL VOC 2007",
+    "MS COCO 2014",
+    "Waterbirds-100"
+   ]
+  }
+ }
 }
