@@ -4,5 +4,32 @@
  "title": "Texture-Generation-on-3D-Meshes-with-Point-UV-Diffusion",
  "token": "sk-Jd4ujJMnj...",
  "created_at": "2026-11-04 21:13:10",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/f122b917-6600-4b9d-98ad-ec06ae6d7087.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/f122b917-6600-4b9d-98ad-ec06ae6d7087.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 08:24:13",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Texture Generation",
+    "Diffusion Model",
+    "3D Mesh",
+    "UV Mapping",
+    "Point Cloud Diffusion",
+    "Coarse-to-Fine"
+   ],
+   "field": "3D 图形生成",
+   "innovations": [
+    "首次将扩散模型专门用于网格纹理生成，提出 Coarse-to-Fine 两阶段 Point-UV Diffusion 框架",
+    "引入 Style Guidance 与 Hybrid Condition 策略，分别缓解数据集颜色偏差与级联模型误差传播",
+    "支持文本/单视图图像条件生成，推理速度比测试时优化方法快约 20 倍"
+   ],
+   "benchmarks": [
+    "ShapeNet (chair/table/car/bench)",
+    "FID",
+    "KID",
+    "LPIPS"
+   ]
+  }
+ }
 }

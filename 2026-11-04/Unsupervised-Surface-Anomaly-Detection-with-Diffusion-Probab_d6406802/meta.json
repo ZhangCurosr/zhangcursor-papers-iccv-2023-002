@@ -4,5 +4,29 @@
  "title": "Unsupervised-Surface-Anomaly-Detection-with-Diffusion-Probab",
  "token": "sk-2FYNY4z3P...",
  "created_at": "2026-11-04 21:14:30",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/52ef19b5-56c8-479f-afa3-e940d12cbefe.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/52ef19b5-56c8-479f-afa3-e940d12cbefe.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 08:26:52",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "无监督异常检测",
+    "扩散模型",
+    "表面缺陷检测",
+    "潜在扩散模型",
+    "MVTec-AD",
+    "重建方法"
+   ],
+   "field": "无监督工业视觉检测",
+   "innovations": [
+    "首次将潜在扩散模型用于无监督表面异常检测重建",
+    "噪声条件嵌入避免直接复制问题",
+    "插值通道建模重建多样性提升定位精度"
+   ],
+   "benchmarks": [
+    "MVTec-AD"
+   ]
+  }
+ }
 }

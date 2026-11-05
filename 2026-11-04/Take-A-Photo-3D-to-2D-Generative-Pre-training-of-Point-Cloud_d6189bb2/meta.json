@@ -4,5 +4,32 @@
  "title": "Take-A-Photo-3D-to-2D-Generative-Pre-training-of-Point-Cloud",
  "token": "sk-kPtjfXaXd...",
  "created_at": "2026-11-04 21:20:14",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/582c1fef-15f3-4085-96d0-a29e52ad613b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/582c1fef-15f3-4085-96d0-a29e52ad613b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 08:24:09",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "点云预训练",
+    "生成预训练",
+    "3D-to-2D 跨模态学习",
+    "点云分类",
+    "点云分割",
+    "姿态感知表征"
+   ],
+   "field": "3D 点云表示学习",
+   "innovations": [
+    "首个适配任意点云骨干的 3D-to-2D 生成预训练框架，利用交叉注意力从指定位姿生成视角图像",
+    "基于光学线几何推导的 Pose-Dependent Query Generator，将相机位姿显式编码为交叉注意力 Query",
+    "前景/背景加权像素级 MSE 损失替代 Chamfer Distance，提供更精确的跨模态监督信号"
+   ],
+   "benchmarks": [
+    "ScanObjectNN",
+    "ModelNet40",
+    "ShapeNetPart",
+    "ScanNetV2"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "Unilaterally-Aggregated-Contrastive-Learning-with-Hierarchic",
  "token": "sk-5WOIsMt5v...",
  "created_at": "2026-11-04 20:57:52",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/cf370fc9-6503-4c26-9044-505f9bf87bdf.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/cf370fc9-6503-4c26-9044-505f9bf87bdf.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 08:25:58",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Anomaly Detection",
+    "Contrastive Learning",
+    "Self-Supervised Learning",
+    "Unilateral Aggregation",
+    "Hierarchical Augmentation"
+   ],
+   "field": "异常检测",
+   "innovations": [
+    "提出UniCLR损失，单侧聚合正常样本并离散虚拟异常，突破传统实例判别范式",
+    "设计软聚合机制抑制强增强引入的伪异常，保障正常分布纯度",
+    "引入层级增强策略匹配网络深度，实现多尺度紧凑表征学习"
+   ],
+   "benchmarks": [
+    "CIFAR-10",
+    "CIFAR-100",
+    "ImageNet-30",
+    "MVTec-AD"
+   ]
+  }
+ }
 }

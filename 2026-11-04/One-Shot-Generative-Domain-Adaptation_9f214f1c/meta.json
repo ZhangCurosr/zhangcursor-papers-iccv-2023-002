@@ -4,5 +4,10 @@
  "title": "One-Shot-Generative-Domain-Adaptation",
  "token": "sk-DZdSC3jNI...",
  "created_at": "2026-11-04 21:14:41",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/75599239-5d02-4bd6-a46a-b17557e608ba.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/75599239-5d02-4bd6-a46a-b17557e608ba.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 08:22:44",
+  "chunks": 1
+ }
 }

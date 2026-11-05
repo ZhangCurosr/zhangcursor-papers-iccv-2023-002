@@ -4,5 +4,32 @@
  "title": "Ord2Seq-Regarding-Ordinal-Regression-as-Label-Sequence-Predi",
  "token": "sk-mqXJxPMnY...",
  "created_at": "2026-11-04 21:05:37",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/2a780070-875d-4bfa-b665-24273ed4fbc5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/2a780070-875d-4bfa-b665-24273ed4fbc5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 08:22:23",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "ordinal regression",
+    "sequence prediction",
+    "dichotomic tree",
+    "masked decision",
+    "Transformer decoder",
+    "label sequence"
+   ],
+   "field": "序数回归与细粒度分类",
+   "innovations": [
+    "首次将序数回归转化为标签序列预测，通过二分树分解为递归二分类",
+    "设计掩码决策解码器，抑制已排除类别的loss干扰以聚焦相邻类别区分",
+    "多热标签生成机制使损失函数天然感知类别层次结构"
+   ],
+   "benchmarks": [
+    "Adience",
+    "Aesthetics",
+    "HCI",
+    "Diabetic Retinopathy"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "TexFusion-Synthesizing-3D-Textures-with-Text-Guided-Image-Di",
  "token": "sk-jny6RLrk9...",
  "created_at": "2026-11-04 21:04:00",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/237457fa-95be-4ae9-9c9d-62cd9ad6a6ce.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/237457fa-95be-4ae9-9c9d-62cd9ad6a6ce.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 08:24:54",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "3D texture synthesis",
+    "text-guided generation",
+    "diffusion models",
+    "latent diffusion",
+    "multiview consistency",
+    "TexFusion",
+    "SDS-free"
+   ],
+   "field": "3D generative modeling",
+   "innovations": [
+    "提出 SIMS 多视图交替去噪聚合机制，避免 SDS 蒸馏并提升跨视角一致性",
+    "基于视角质量的潜纹理聚合策略与神经颜色场后处理解耦潜空间/RGB空间",
+    "两阶段多分辨率级联细化，兼顾全局语义一致性与局部细节"
+   ],
+   "benchmarks": [
+    "FID (SD2-depth proxy ground truth)",
+    "User study on Amazon Mechanical Turk"
+   ]
+  }
+ }
 }

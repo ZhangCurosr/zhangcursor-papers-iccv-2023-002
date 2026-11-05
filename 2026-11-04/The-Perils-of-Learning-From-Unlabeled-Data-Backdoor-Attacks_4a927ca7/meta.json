@@ -4,5 +4,10 @@
  "title": "The-Perils-of-Learning-From-Unlabeled-Data-Backdoor-Attacks",
  "token": "sk-byuTueqyX...",
  "created_at": "2026-11-04 21:23:17",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/cde445fd-7048-43cf-941f-043fe0b3d2e1.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/cde445fd-7048-43cf-941f-043fe0b3d2e1.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 08:25:05",
+  "chunks": 1
+ }
 }

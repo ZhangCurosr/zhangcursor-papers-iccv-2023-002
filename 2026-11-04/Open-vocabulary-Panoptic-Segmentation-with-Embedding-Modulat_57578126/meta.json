@@ -4,5 +4,34 @@
  "title": "Open-vocabulary-Panoptic-Segmentation-with-Embedding-Modulat",
  "token": "sk-t5rU5DeOT...",
  "created_at": "2026-11-04 21:10:26",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/bf17d773-8b08-49b6-8eaf-6f46c97c1ce8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/bf17d773-8b08-49b6-8eaf-6f46c97c1ce8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 08:22:27",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "open-vocabulary segmentation",
+    "panoptic segmentation",
+    "CLIP",
+    "embedding modulation",
+    "spatial adapter",
+    "mask filtering",
+    "decoupled supervision"
+   ],
+   "field": "开放词汇图像分割",
+   "innovations": [
+    "Embedding Modulation 通过域相似度自适应融合 query 与 CLIP 嵌入并做 logit debiasing",
+    "Spatial Adapter + Mask Pooling 一次性提取多 proposal 的 CLIP 视觉特征替代逐 proposal 编码",
+    "Mask Filtering 用 IoU 回归头替代分类置信度过滤 invalid proposals，适配开放词汇"
+   ],
+   "benchmarks": [
+    "COCO Panoptic",
+    "ADE20K",
+    "Cityscapes",
+    "PascalContext",
+    "ImageNet-21K"
+   ]
+  }
+ }
 }

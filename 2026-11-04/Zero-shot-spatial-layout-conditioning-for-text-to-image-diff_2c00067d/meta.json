@@ -4,5 +4,32 @@
  "title": "Zero-shot-spatial-layout-conditioning-for-text-to-image-diff",
  "token": "sk-aeujzMN4P...",
  "created_at": "2026-11-04 21:32:06",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/8098774a-1854-4e68-87eb-72737dd934a6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/8098774a-1854-4e68-87eb-72737dd934a6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 08:27:49",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "零样本生成",
+    "扩散模型",
+    "空间控制",
+    "交叉注意力",
+    "分割引导",
+    "training-free",
+    "语义图像合成"
+   ],
+   "field": "文本到图像扩散模型的空间条件生成",
+   "innovations": [
+    "利用cross-attention隐式分割图实现零样本空间引导，无需外部分类器",
+    "设计双项BCE组合损失L_Zest，解决对象间注意力峰值不均衡问题"
+   ],
+   "benchmarks": [
+    "COCO-Stuff validation set",
+    "FID",
+    "mIoU",
+    "CLIP Score"
+   ]
+  }
+ }
 }
