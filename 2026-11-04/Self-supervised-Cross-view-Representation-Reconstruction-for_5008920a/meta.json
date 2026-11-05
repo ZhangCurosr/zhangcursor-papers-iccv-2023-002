@@ -4,5 +4,31 @@
  "title": "Self-supervised-Cross-view-Representation-Reconstruction-for",
  "token": "sk-dY4OBV5wM...",
  "created_at": "2026-11-04 21:01:39",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/056a9614-89ef-4586-972d-676d10c08899.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/056a9614-89ef-4586-972d-676d10c08899.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 00:55:10",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "change captioning",
+    "self-supervised learning",
+    "cross-view representation",
+    "contrastive alignment",
+    "view-invariant features"
+   ],
+   "field": "视觉语言理解",
+   "innovations": [
+    "通过自监督跨视角对比对齐学习视角不变表示",
+    "设计多头标记级匹配实现细粒度跨视角特征交互",
+    "引入跨模态反向推理自监督强化描述信息量"
+   ],
+   "benchmarks": [
+    "CLEVR-Change",
+    "CLEVR-DC",
+    "Image Editing Request",
+    "Spot-the-Diff"
+   ]
+  }
+ }
 }

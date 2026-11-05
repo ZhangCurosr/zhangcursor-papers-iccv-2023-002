@@ -4,5 +4,34 @@
  "title": "Shift-from-Texture-bias-to-Shape-bias-Edge-Deformation-based",
  "token": "sk-xE6uZ2trL...",
  "created_at": "2026-11-04 21:05:34",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/393e76a8-a1af-4be8-bd88-7a606279cea4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/393e76a8-a1af-4be8-bd88-7a606279cea4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 00:55:38",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "对抗鲁棒性",
+    "形状偏向",
+    "数据增强",
+    "边缘变形",
+    "薄板样条",
+    "生成对抗网络"
+   ],
+   "field": "计算机视觉-模型鲁棒性",
+   "innovations": [
+    "提出基于薄板样条边缘变形的在线数据增强框架SDbOA，直接对形状结构进行多样化增强",
+    "设计语义保持的生成范式，联合纹理引导与边缘软约束生成形状多样化且语义合理的样本",
+    "引入自我信息引导图鲁棒化边缘表示，结合两阶段生成器训练以提升通用鲁棒性"
+   ],
+   "benchmarks": [
+    "CIFAR-10",
+    "ImageNet",
+    "FashionMNIST",
+    "CelebA",
+    "CIFAR-10-C",
+    "Texture-Shape Conflict Dataset"
+   ]
+  }
+ }
 }

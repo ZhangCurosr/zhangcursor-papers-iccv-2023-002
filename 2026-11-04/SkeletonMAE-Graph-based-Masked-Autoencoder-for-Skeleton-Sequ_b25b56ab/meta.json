@@ -4,5 +4,32 @@
  "title": "SkeletonMAE-Graph-based-Masked-Autoencoder-for-Skeleton-Sequ",
  "token": "sk-07nfPn8BZ...",
  "created_at": "2026-11-04 21:06:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/d7cbad26-c8d1-4733-b6aa-d63fdf2ff459.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/d7cbad26-c8d1-4733-b6aa-d63fdf2ff459.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 00:55:51",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Skeleton-based action recognition",
+    "self-supervised learning",
+    "masked autoencoder",
+    "graph convolutional network",
+    "skeleton sequence pre-training",
+    "fine-grained action recognition"
+   ],
+   "field": "骨架动作识别",
+   "innovations": [
+    "提出动作敏感的身体部位掩码策略，按人体拓扑分区掩码而非随机掩码",
+    "引入重加权余弦误差（RCE）重建损失，自适应聚焦难样本提升重建判别力",
+    "构建非对称GIN编码器-解码器SkeletonMAE，结合STRL模块实现高效自监督骨架预训练"
+   ],
+   "benchmarks": [
+    "FineGym",
+    "NTU RGB+D 60",
+    "NTU RGB+D 120",
+    "Diving48"
+   ]
+  }
+ }
 }

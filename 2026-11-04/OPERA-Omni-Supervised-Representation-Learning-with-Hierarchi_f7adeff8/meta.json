@@ -4,5 +4,35 @@
  "title": "OPERA-Omni-Supervised-Representation-Learning-with-Hierarchi",
  "token": "sk-yjjHVmEWF...",
  "created_at": "2026-11-04 21:27:52",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/ecdd0335-fd3e-4643-b2eb-5b8fe7d504a3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/ecdd0335-fd3e-4643-b2eb-5b8fe7d504a3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 00:53:04",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "representation learning",
+    "self-supervised learning",
+    "fully supervised learning",
+    "contrastive learning",
+    "hierarchical supervision",
+    "transfer learning",
+    "vision transformer"
+   ],
+   "field": "自监督/全监督统一表征学习",
+   "innovations": [
+    "统一相似度学习框架将FSL和SSL纳入同一形式",
+    "层级代理表征机制（实例空间→类别空间）避免监督信号冲突",
+    "端到端联合优化，兼具判别性与迁移性"
+   ],
+   "benchmarks": [
+    "ImageNet-1K",
+    "ADE20K",
+    "COCO",
+    "CIFAR-10/100",
+    "Oxford Flowers-102",
+    "Oxford-IIIT-Pets"
+   ]
+  }
+ }
 }

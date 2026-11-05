@@ -4,5 +4,30 @@
  "title": "ShiftNAS-Improving-One-shot-NAS-via-Probability-Shift",
  "token": "sk-owp49a3rO...",
  "created_at": "2026-11-04 21:25:24",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/e9e10dea-c553-4032-b877-497f0307c421.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/e9e10dea-c553-4032-b877-497f0307c421.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 00:55:41",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Neural Architecture Search",
+    "One-shot NAS",
+    "Weight Entanglement",
+    "Probability Shift",
+    "Architecture Generator",
+    "Vision Transformer",
+    "Convolutional Neural Network"
+   ],
+   "field": "神经架构搜索",
+   "innovations": [
+    "提出基于训练充分性的概率偏移策略动态调整采样分布",
+    "设计可微LSTM架构生成器直接输出满足任意计算约束的子网",
+    "在CNN与ViT搜索空间上实现无需重训的SOTA性能"
+   ],
+   "benchmarks": [
+    "ImageNet Classification"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "Mining-bias-target-Alignment-from-Voronoi-Cells",
  "token": "sk-iG65PZaJv...",
  "created_at": "2026-11-04 20:56:23",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/63b4d052-a2b6-4524-bd55-76fb6d621657.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/63b4d052-a2b6-4524-bd55-76fb6d621657.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 00:52:36",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "debiasing",
+    "bias-agnostic",
+    "Voronoi cells",
+    "mutual information regularization",
+    "deep learning fairness"
+   ],
+   "field": "计算机视觉去偏",
+   "innovations": [
+    "基于Voronoi边界距离自动检测bias-target对齐时机",
+    "条件互信息正则化仅在misaligned样本上去除bias信息",
+    "bias-agnostic方法性能媲美监督方法且在多偏置场景达SOTA"
+   ],
+   "benchmarks": [
+    "Biased MNIST",
+    "Multi-Color MNIST",
+    "CelebA",
+    "9-class ImageNet",
+    "ImageNet-A"
+   ]
+  }
+ }
 }

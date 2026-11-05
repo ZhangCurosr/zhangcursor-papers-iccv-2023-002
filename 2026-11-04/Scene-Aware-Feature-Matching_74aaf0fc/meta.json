@@ -4,5 +4,31 @@
  "title": "Scene-Aware-Feature-Matching",
  "token": "sk-wGl2gwQjA...",
  "created_at": "2026-11-04 21:03:15",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/5be658d6-8595-4e3b-8f55-f10f8d1fcb2d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/5be658d6-8595-4e3b-8f55-f10f8d1fcb2d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 00:54:37",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "特征匹配",
+    "Transformer",
+    "场景感知",
+    "分组",
+    "单应性估计",
+    "姿态估计"
+   ],
+   "field": "特征匹配与视觉几何",
+   "innovations": [
+    "首次引入group tokens构建场景感知多级特征匹配框架",
+    "仅用ground-truth匹配监督实现可微场景感知分组",
+    "通过Gumbel-Softmax+straight-through trick实现硬分组分配"
+   ],
+   "benchmarks": [
+    "R1M",
+    "YFCC100M",
+    "HPatches"
+   ]
+  }
+ }
 }

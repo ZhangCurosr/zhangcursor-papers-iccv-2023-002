@@ -4,5 +4,29 @@
  "title": "SVDiff-Compact-Parameter-Space-for-Diffusion-Fine-Tuning",
  "token": "sk-9ieZJEGxv...",
  "created_at": "2026-11-04 21:10:32",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/b7f80f12-41aa-4957-bcdd-75656bf450f8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/b7f80f12-41aa-4957-bcdd-75656bf450f8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 00:54:23",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "diffusion model",
+    "fine-tuning",
+    "singular value decomposition",
+    "personalization",
+    "spectral shift",
+    "Cut-Mix-Unmix"
+   ],
+   "field": "文本到图像生成",
+   "innovations": [
+    "将GAN领域的奇异值微调思想引入扩散模型，构建仅优化奇异值偏移的紧凑参数空间，参数量约为完整DreamBooth的1/2200",
+    "提出Cut-Mix-Unmix数据增强技术，显式引导模型分离多主体个性化概念的风格，提升相似类别主体的生成质量"
+   ],
+   "benchmarks": [
+    "StableDiffusion个性化生成基准",
+    "Amazon MTurk用户研究评估"
+   ]
+  }
+ }
 }

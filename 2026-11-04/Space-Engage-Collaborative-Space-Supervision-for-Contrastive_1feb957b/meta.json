@@ -4,5 +4,31 @@
  "title": "Space-Engage-Collaborative-Space-Supervision-for-Contrastive",
  "token": "sk-sbpYA8ztD...",
  "created_at": "2026-11-04 21:27:00",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/cb9898c3-7607-4ba7-86e7-35c0d8751d6e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/cb9898c3-7607-4ba7-86e7-35c0d8751d6e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 00:56:02",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "semi-supervised semantic segmentation",
+    "contrastive learning",
+    "collaborative space supervision",
+    "prototype-based learning",
+    "pseudo-labeling"
+   ],
+   "field": "半监督语义分割",
+   "innovations": [
+    "提出双空间协作监督框架，联合logit空间与representation空间生成伪标签",
+    "引入相似度作为representation学习的新型指示器，替代传统logit置信度",
+    "设计Mix与Cross两种伪标签协作策略促进两空间知识交换"
+   ],
+   "benchmarks": [
+    "PASCAL VOC 2012",
+    "Cityscapes",
+    "ADE20K",
+    "COCO-Stuff 10K"
+   ]
+  }
+ }
 }

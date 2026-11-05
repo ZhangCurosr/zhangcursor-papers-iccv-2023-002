@@ -4,5 +4,30 @@
  "title": "Multiple-Instance-Learning-Framework-with-Masked-Hard-Instan",
  "token": "sk-hwXfRrBR3...",
  "created_at": "2026-11-04 21:11:04",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/e642789c-b0b0-40ef-a99d-78de182f4955.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/e642789c-b0b0-40ef-a99d-78de182f4955.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 00:53:02",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Multiple Instance Learning",
+    "Whole Slide Image",
+    "Hard Instance Mining",
+    "Medical Image Analysis",
+    "Weakly Supervised Learning",
+    "Attention Mechanism",
+    "Momentum Teacher"
+   ],
+   "field": "数字病理图像分析",
+   "innovations": [
+    "提出掩码难实例挖掘策略，通过注意力权重反向掩码隐式获取难实例，无需实例级标签",
+    "设计Siamese动量教师-学生结构与一致性损失，替代复杂双梯度更新架构，降低参数与训练成本"
+   ],
+   "benchmarks": [
+    "CAMELYON-16",
+    "TCGA Lung Cancer"
+   ]
+  }
+ }
 }

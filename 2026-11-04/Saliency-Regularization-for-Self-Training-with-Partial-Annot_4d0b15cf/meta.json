@@ -4,5 +4,33 @@
  "title": "Saliency-Regularization-for-Self-Training-with-Partial-Annot",
  "token": "sk-TohzZhzLz...",
  "created_at": "2026-11-04 21:07:13",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/969eb130-08d2-4b91-8267-45e187a2c430.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/969eb130-08d2-4b91-8267-45e187a2c430.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 00:54:27",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "partial annotation",
+    "multi-label classification",
+    "saliency regularization",
+    "self-training",
+    "consistency regularization",
+    "positive-negative imbalance",
+    "pseudo-labeling"
+   ],
+   "field": "多标签学习与部分标注",
+   "innovations": [
+    "提出显著性正则化(SR)缓解部分标注多标签分类中的负主导问题，从理论上证明其可自适应平衡easy/hard样本",
+    "构建无需预训练模型的端到端自训练框架，结合CR与SR在不同已知比例下均有效",
+    "以弱-强增强一致性生成伪标签，借助SR放大正标签概率以弥补未知标签"
+   ],
+   "benchmarks": [
+    "MS-COCO",
+    "VG-200",
+    "Pascal VOC 2007",
+    "OpenImages V3"
+   ]
+  }
+ }
 }

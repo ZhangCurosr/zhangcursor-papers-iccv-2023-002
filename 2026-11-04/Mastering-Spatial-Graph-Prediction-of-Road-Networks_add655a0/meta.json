@@ -4,5 +4,32 @@
  "title": "Mastering-Spatial-Graph-Prediction-of-Road-Networks",
  "token": "sk-JMLCbBCEj...",
  "created_at": "2026-11-04 21:14:18",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/1c0b9f59-7509-43f9-a758-e6f3b4fb30c3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/1c0b9f59-7509-43f9-a758-e6f3b4fb30c3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 00:52:18",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "road network extraction",
+    "spatial graph prediction",
+    "reinforcement learning",
+    "Monte Carlo tree search",
+    "satellite imagery",
+    "autogressive model",
+    "topology-aware generation"
+   ],
+   "field": "遥感图像理解与道路网络提取",
+   "innovations": [
+    "将MuZero风格的隐式环境模型引入道路图生成，用轻量LSTM替代完整解码器进行MCTS模拟，计算成本降低90倍",
+    "基于非连续任务特定奖励函数（APLS/Path-Junction-Subgraph f1）的RL微调策略，解决训练目标与评估指标不对齐问题",
+    "打破自回归固定解码顺序限制，通过树搜索自适应探索最优边添加序列"
+   ],
+   "benchmarks": [
+    "SpaceNet",
+    "DeepGlobe",
+    "Synthetic Occlusion Dataset"
+   ]
+  }
+ }
 }

@@ -4,5 +4,30 @@
  "title": "Stochastic-Segmentation-with-Conditional-Categorical-Diffusi",
  "token": "sk-aQHhxC28I...",
  "created_at": "2026-11-04 21:25:23",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/7a68068b-10d4-42dd-9dbe-f10638a33085.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/7a68068b-10d4-42dd-9dbe-f10638a33085.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 00:56:19",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "随机语义分割",
+    "类别扩散模型",
+    "不确定性建模",
+    "医学图像分割",
+    "条件扩散"
+   ],
+   "field": "视觉分割与不确定性量化",
+   "innovations": [
+    "首次将类别扩散模型应用于条件语义分割，原生建模多专家标注分布",
+    "在LIDC多标注数据集上以9M参数达到SOTA，超越多种已有方法",
+    "结合Dino-ViT预训练特征，在Cityscapes高分辨率上超越多个重基线"
+   ],
+   "benchmarks": [
+    "LIDCv1",
+    "LIDCv2",
+    "Cityscapes-val"
+   ]
+  }
+ }
 }

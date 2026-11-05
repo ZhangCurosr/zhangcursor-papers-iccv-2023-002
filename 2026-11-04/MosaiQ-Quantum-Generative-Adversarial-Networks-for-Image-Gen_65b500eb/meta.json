@@ -4,5 +4,31 @@
  "title": "MosaiQ-Quantum-Generative-Adversarial-Networks-for-Image-Gen",
  "token": "sk-hRG9yTz20...",
  "created_at": "2026-11-04 21:21:59",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/b5459111-449f-45b0-bea9-e64e90fec8c5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/b5459111-449f-45b0-bea9-e64e90fec8c5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 00:52:49",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "量子生成对抗网络",
+    "NISQ",
+    "图像生成",
+    "主成分分析",
+    "模式崩溃",
+    "变分量子电路",
+    "自适应噪声"
+   ],
+   "field": "量子机器学习/量子图像生成",
+   "innovations": [
+    "提出PCA特征智能重分配机制实现可扩展量子图像生成",
+    "设计基于损失比的自适应噪声生成方法缓解模式崩溃",
+    "在NISQ真实设备上实现抗硬件误差的高质量量子图像生成"
+   ],
+   "benchmarks": [
+    "MNIST",
+    "Fashion MNIST"
+   ]
+  }
+ }
 }

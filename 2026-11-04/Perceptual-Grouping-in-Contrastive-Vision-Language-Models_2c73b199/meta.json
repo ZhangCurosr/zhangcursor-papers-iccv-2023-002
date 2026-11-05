@@ -4,5 +4,35 @@
  "title": "Perceptual-Grouping-in-Contrastive-Vision-Language-Models",
  "token": "sk-0sYDudTcj...",
  "created_at": "2026-11-04 21:28:19",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/eccf795b-ddee-4886-a9ce-7b56dbc9e289.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/eccf795b-ddee-4886-a9ce-7b56dbc9e289.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 00:54:14",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "感知分组",
+    "对比视觉-语言模型",
+    "零样本语义分割",
+    "无监督分割",
+    "鲁棒性",
+    "最大池化",
+    "DINO预训练"
+   ],
+   "field": "多模态视觉表征学习",
+   "innovations": [
+    "提出CLIPpy，通过三项最小修改赋予对比VLM感知分组能力",
+    "无需分割标注即实现SOTA零样本语义分割和无监督分割",
+    "感知分组显著提升对虚假相关性的鲁棒性，域误差与监督方法相当"
+   ],
+   "benchmarks": [
+    "ImageNet",
+    "PASCAL VOC",
+    "COCO",
+    "ADE20K",
+    "Cityscapes",
+    "Waterbirds"
+   ]
+  }
+ }
 }

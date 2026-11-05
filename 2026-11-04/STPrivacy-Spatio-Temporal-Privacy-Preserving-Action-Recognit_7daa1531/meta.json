@@ -4,5 +4,32 @@
  "title": "STPrivacy-Spatio-Temporal-Privacy-Preserving-Action-Recognit",
  "token": "sk-HhSqimc2F...",
  "created_at": "2026-11-04 21:14:09",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/fa8ffd24-f3d2-49e8-8e96-2a5b46a14777.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/fa8ffd24-f3d2-49e8-8e96-2a5b46a14777.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 00:54:25",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Privacy-Preserving Action Recognition",
+    "Vision Transformer",
+    "Video-level Privacy",
+    "Token Sparsification",
+    "Adversarial Learning"
+   ],
+   "field": "隐私保护视频理解",
+   "innovations": [
+    "首个将ViT引入PPAR的视频级隐私保护框架，通过稀疏化+匿名化双机制同时保护视频级和帧级隐私",
+    "设计多尺度特征聚合与Gumbel-Softmax可微token剪枝，实现自适应隐私tubelet丢弃",
+    "构建VP-HMDB51和VP-UCF101两个大规模PPAR benchmark并开放标注"
+   ],
+   "benchmarks": [
+    "VP-HMDB51",
+    "VP-UCF101",
+    "PA-HMDB",
+    "CelebVHQ (FAPDER)",
+    "P-HVU (OSPAR)"
+   ]
+  }
+ }
 }

@@ -4,5 +4,33 @@
  "title": "Parallax-Tolerant-Unsupervised-Deep-Image-Stitching",
  "token": "sk-WFixZKKH5...",
  "created_at": "2026-11-04 21:09:40",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/f1e4c9e3-5d8b-424a-9734-295a5e04b44d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/f1e4c9e3-5d8b-424a-9734-295a5e04b44d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 00:53:45",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "图像拼接",
+    "无监督学习",
+    "视差容忍",
+    "薄板样条",
+    "形变估计",
+    "缝合线"
+   ],
+   "field": "计算摄影与图像拼接",
+   "innovations": [
+    "统一单应性与TPS残差形变框架实现全局-局部协同对齐",
+    "缝合线驱动的无监督软蒙版合成消除视差伪影",
+    "无监督迭代形变适配策略提升跨数据集泛化能力"
+   ],
+   "benchmarks": [
+    "UDIS-D",
+    "RailTrack",
+    "Fence",
+    "Carpark",
+    "BoardingBridge"
+   ]
+  }
+ }
 }

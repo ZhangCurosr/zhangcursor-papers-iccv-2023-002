@@ -4,5 +4,30 @@
  "title": "Periodically-Exchange-Teacher-Student-for-Source-Free-Object",
  "token": "sk-JdJPQj6CY...",
  "created_at": "2026-11-04 21:13:42",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/46d6c07e-443b-41bf-9709-597d8587cf8d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/46d6c07e-443b-41bf-9709-597d8587cf8d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 00:53:38",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "源无关目标检测",
+    "无监督域适应",
+    "均值教师框架",
+    "多教师自训练",
+    "伪标签"
+   ],
+   "field": "域适应目标检测",
+   "innovations": [
+    "提出周期性权重交换机制缓解单教师MT框架训练不稳定问题",
+    "设计静态教师+动态教师+学生多教师框架及双教师共识融合机制"
+   ],
+   "benchmarks": [
+    "C2F (Cityscapes-to-Foggy Cityscapes)",
+    "C2B (Cityscapes-to-BDD100k)",
+    "K2C (KITTI-to-Cityscapes-Car)",
+    "S2C (Sim10k-to-Cityscapes-Car)"
+   ]
+  }
+ }
 }

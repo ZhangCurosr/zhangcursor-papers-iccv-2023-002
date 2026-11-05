@@ -4,5 +4,30 @@
  "title": "StyleDiffusion-Controllable-Disentangled-Style-Transfer-via",
  "token": "sk-WBtYQMcVU...",
  "created_at": "2026-11-04 21:18:39",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/f7317cfa-a51c-4004-a55f-7053beb9e2fb.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/f7317cfa-a51c-4004-a55f-7053beb9e2fb.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 00:57:04",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "神经风格迁移",
+    "内容-风格解耦",
+    "扩散模型",
+    "CLIP",
+    "可控生成",
+    "图像编辑"
+   ],
+   "field": "图像风格迁移与生成",
+   "innovations": [
+    "提出首个基于扩散模型的可控C-S解耦风格迁移框架，以'风格是内容的补集'为核心思想",
+    "在CLIP图像空间中设计风格解耦损失（L1+方向损失），实现内容域到风格域的准确映射",
+    "引入扩散模型风格去除模块，通过DDIM采样步数连续调控解耦程度，兼顾可解释性与可控性"
+   ],
+   "benchmarks": [
+    "ImageNet",
+    "32内容图+12风格图自建测试集"
+   ]
+  }
+ }
 }

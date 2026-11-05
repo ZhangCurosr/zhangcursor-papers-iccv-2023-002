@@ -4,5 +4,31 @@
  "title": "MatrixCity-A-Large-scale-City-Dataset-for-City-scale-Neural",
  "token": "sk-JqniBRrr0...",
  "created_at": "2026-11-04 21:16:13",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/66c48d1b-253f-4226-9d1e-9e7e7460119d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/66c48d1b-253f-4226-9d1e-9e7e7460119d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 00:52:09",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "城市级神经渲染",
+    "NeRF",
+    "合成数据集",
+    "大规模场景重建",
+    "多视角融合",
+    "Unreal Engine 5"
+   ],
+   "field": "城市级神经渲染",
+   "innovations": [
+    "构建首个覆盖28km²、含航拍+街景双视角的城市级神经渲染合成数据集MatrixCity",
+    "开发UE5自动化采集插件，支持光照/天气/人群的细粒度可控环境模拟",
+    "系统性揭示航拍与街景直接融合训练的负交互效应及尺度差异挑战"
+   ],
+   "benchmarks": [
+    "MatrixCity Aerial Benchmark",
+    "MatrixCity Street Benchmark",
+    "MatrixCity Fusion Benchmark"
+   ]
+  }
+ }
 }

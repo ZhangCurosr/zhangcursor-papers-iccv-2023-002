@@ -4,5 +4,29 @@
  "title": "Phasic-Content-Fusing-Diffusion-Model-with-Directional-Distr",
  "token": "sk-Q9H20f53a...",
  "created_at": "2026-11-04 21:26:20",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/87fd65c7-e12a-4967-a174-841f75376c25.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/87fd65c7-e12a-4967-a174-841f75376c25.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 00:53:51",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "few-shot generation",
+    "diffusion model",
+    "domain adaptation",
+    "content preservation",
+    "distribution consistency"
+   ],
+   "field": "少样本图像生成",
+   "innovations": [
+    "分阶段内容融合扩散模型，大t学习内容风格小t学习局部细节",
+    "方向分布一致性损失(DDC)，避免分布旋转并直接优化结构保持",
+    "迭代跨域结构指导策略(ICSG)，推理时增强结构一致性"
+   ],
+   "benchmarks": [
+    "FFHQ to Sketches/Cartoon/VanGogh",
+    "LSUN Church to VanGogh/Haunted Houses"
+   ]
+  }
+ }
 }

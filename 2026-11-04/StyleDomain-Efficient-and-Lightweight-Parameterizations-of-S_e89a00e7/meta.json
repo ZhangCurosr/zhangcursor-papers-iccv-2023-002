@@ -4,5 +4,32 @@
  "title": "StyleDomain-Efficient-and-Lightweight-Parameterizations-of-S",
  "token": "sk-uDfT0rM1x...",
  "created_at": "2026-11-04 21:24:40",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/eafaafe7-7b33-4c2a-b9ca-e0b8faebea3b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/eafaafe7-7b33-4c2a-b9ca-e0b8faebea3b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 00:56:49",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "StyleGAN",
+    "domain adaptation",
+    "one-shot adaptation",
+    "few-shot adaptation",
+    "latent space",
+    "parameter-efficient tuning",
+    "StyleSpace"
+   ],
+   "field": "生成模型域适应",
+   "innovations": [
+    "系统性分析 StyleGAN 各组件对域适应的贡献，发现相似域仅需优化仿射层",
+    "提出 StyleDomain 方向及稀疏化版本，以极少参数实现相似域适应",
+    "提出 Affine+ 和 AffineLight+ 参数化，在 few-shot 不相似域上超越 SOTA 且参数仅 Full 的 1/100"
+   ],
+   "benchmarks": [
+    "AFHQ Dogs",
+    "AFHQ Cats",
+    "HyperDomainNet-style quality/diversity metrics"
+   ]
+  }
+ }
 }
