@@ -4,5 +4,32 @@
  "title": "Toward-Multi-Granularity-Decision-Making-Explicit-Visual-Rea",
  "token": "sk-g1W7S8UIF...",
  "created_at": "2026-11-04 21:20:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/ff302aa5-c9c5-41b2-b285-51baa9e21e25.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/ff302aa5-c9c5-41b2-b285-51baa9e21e25.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 16:39:44",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "视觉问答",
+    "知识推理",
+    "层次化表示",
+    "神经模块网络",
+    "多粒度知识",
+    "可解释AI"
+   ],
+   "field": "视觉知识推理",
+   "innovations": [
+    "提出HCG层次化概念图以多层结构区分不同粒度知识",
+    "设计HCNMN实现层间注意力衰减传播与层内神经模块联合推理",
+    "属性向量置信度加权融合视觉观测与外部知识库先验"
+   ],
+   "benchmarks": [
+    "OK-VQA",
+    "FVQA",
+    "GQA",
+    "VQA v2"
+   ]
+  }
+ }
 }

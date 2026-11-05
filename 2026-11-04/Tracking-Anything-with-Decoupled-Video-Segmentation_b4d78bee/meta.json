@@ -4,5 +4,33 @@
  "title": "Tracking-Anything-with-Decoupled-Video-Segmentation",
  "token": "sk-jIjWdfVgv...",
  "created_at": "2026-11-04 21:25:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/a07206c2-021f-4fd0-9371-7ece289c5016.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-11-05/a07206c2-021f-4fd0-9371-7ece289c5016.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-05 16:40:36",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "video segmentation",
+    "decoupled approach",
+    "open-world segmentation",
+    "video panoptic segmentation",
+    "bi-directional propagation",
+    "in-clip consensus"
+   ],
+   "field": "视频分割与开放世界视频理解",
+   "innovations": [
+    "将视频分割解耦为任务特定图像分割与类无关时间传播，减少对目标视频标注依赖",
+    "提出双向传播与帧内共识去噪机制，融合过去传播与未来clip投票提升鲁棒性",
+    "在VIPSeg与BURST等大规模/开放世界数据集上取得SOTA或强竞争力结果"
+   ],
+   "benchmarks": [
+    "VIPSeg",
+    "BURST",
+    "Ref-YouTubeVOS",
+    "Ref-DAVIS",
+    "DAVIS-16/17"
+   ]
+  }
+ }
 }
